@@ -1,0 +1,41 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: block;
+}
+
+.container .login-div {
+    position: absolute;
+    left: 26%;
+    top: 27%;
+    width: 746px;
+    height: 665px;
+    background-color: white;
+    margin-right: 46px;
+    margin-bottom: 82%;
+    box-shadow: 15px 15px 15px cyan;
+    border-radius: 12px;
+    transition: 1.5s;
+}
+
+
+.container .login-div:hover {
+    transform: scale(1.5);
+    box-shadow: 16px 16px 16px cyan;
+}
+
+
+.container .login-div div {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.container .login-div div input {
+    width: 200px;
+    padding-left: 20px;
+    border: none;
+    background-color:#463e3e;
+    height: 20px;
+    width: 200px;
+}

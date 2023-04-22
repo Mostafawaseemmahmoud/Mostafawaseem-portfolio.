@@ -1,0 +1,82 @@
+.landing-page {
+    background-image: url("../images/img_1.jpg");
+    background-repeat: no-repeat;
+    min-height:100vh;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;    
+}
+
+header .logo {
+    padding:20px;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+header nav {
+    padding-right: 200px;
+}
+
+header nav ul li{
+    display: inline-flex;
+    margin-right: 20px; 
+}
+
+header nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+header nav ul li a:hover{
+    color: rgb(194, 194, 194);
+}
+
+
+
+
+.introduction-text {
+    margin-top:300px; 
+}
+
+.introduction-text h1 span {
+    color: #ff5722;
+}
+
+.products {
+    background-color: #fff;
+}
+
+.products-box { 
+    border: solid #eee;
+    padding: 20px;
+    max-width: 200px;
+    margin-top: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.products-box P {
+    max-width: 300px;
+    font-weight: bolder;
+}
+
+.icon {
+    font-size: 1.8em;
+}
+
+.products-box:hover {
+    background-color: black;
+    color: white;
+    border-color: #ff5722;
+    transform: scale(1.5)
+}
