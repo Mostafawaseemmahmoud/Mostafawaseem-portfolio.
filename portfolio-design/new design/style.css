@@ -1,0 +1,60 @@
+.laening-page {
+    background-image: url('bgImage.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.laening-page header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f8ff00;
+}
+
+
+.laening-page header .logo {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+.laening-page header nav  ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.laening-page header nav  ul {
+    align-items: center;
+}
+
+
+.laening-page header nav {
+    padding-right: 62px;
+}
+
+.laening-page header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.interdiction-text {
+    transform: translate(50%, 50%);
+    position: absolute;
+    top: 36%;
+    left: 22%;
+}
+
+.interdiction-text p  {
+    text-align: center;
+    max-width: 469px;
+}
+
+.active {
+    text-decoration: underline cyan;
+    color: red;
+}
+

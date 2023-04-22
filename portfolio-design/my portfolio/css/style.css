@@ -1,0 +1,256 @@
+:root {
+    --main-color:#f44336;    
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.up{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 6px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    background: orange;
+    display: none;
+}
+
+
+.home {
+    color: var(--main-color);
+}
+
+a {
+    display: flex;
+}
+
+.landing-page {
+    min-height: 100vh;
+    background-image: url('../images/_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.landing-page header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+
+.landing-page header .logo {
+    padding-left:20px;
+    font-weight: bold;
+}
+
+
+.landing-page header nav ul {
+    align-items: right;
+    padding-right: 40px;
+}
+
+
+.landing-page header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.landing-page header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 1.5s;
+}
+
+.landing-page header nav ul li a:hover{
+    color: var(--main-color)
+}
+
+
+.settings {
+    margin-top: 400px;
+    background-color: #eee;
+    max-width: 20px;
+    padding: 6px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #eee;
+    background-color: var(--main-color);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.login button {
+    background-color: var(--main-color);
+    border: none;
+    max-height: 0;
+    margin-top: 38px;
+    margin-left: -8px;
+    margin-bottom:20px ;
+    display: none;
+}
+
+
+.landing-page main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 2;
+    color: #FFF;
+    text-align: center;
+}
+
+.landing-page main span {
+    color:var(--main-color);
+};
+
+.landing-page main  h2 {
+    font-size: 40px;
+    margin: 0px 0px 12px; 
+}
+
+.landing-page main p {
+    line-height: 1.6;
+}
+
+
+.my-h1 span {
+    color:rgb(0, 156, 228);
+}
+
+.services-page .services-box {
+    margin-top: 200px;
+    padding-bottom: 20px;
+    margin-bottom: 200px;
+    display: block;
+    align-items: center;
+    z-index: 2;
+    text-align: center;
+    border:solid;
+    border-color: #eee;
+    border-radius: 20px;
+    max-width: 300px;
+    transition: 1.5s
+
+}
+
+.services-page .services-box1{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    border:solid;
+    border-color: #eee;
+    border-radius: 20px;
+    max-width: 300px;
+    transition: 1.5s
+
+
+
+}
+
+
+.services-page .services-box2 {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    border:solid;
+    border-color: #eee;
+    max-width: 300px;
+    border-radius: 20px;
+    transition: 1.5s
+
+}
+
+ .icon1 {    
+    height: 20px;
+    width: 300px;
+    font-size: 40px;
+
+}
+
+.services-box p,
+.services-box1 p,
+.services-box2 p{
+    font-weight: bold;
+}
+
+.services-box:hover,
+.services-box1:hover ,
+.services-box2:hover {
+    transform: scale(2);
+}
+
+
+.products-home .products-box {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    border:solid;
+    border-color: #eee;
+    border-radius: 20px;
+    max-width: 300px;
+    transition: 1.5s;
+    padding: 20px;
+    cursor: pointer;
+}
+.products-box span {
+    height: 20px;
+    width: 300px;   
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+
+.products-box:hover {
+    transform: scale(2)
+}
+
+
+.container .login-div {
+    position: absolute;
+    width: 746px;
+    height: 665px;
+    background-color: white;
+    margin-right: 46px;
+    margin-bottom: 82%;
+    box-shadow: 15px 15px 15px cyan;
+    border-radius: 12px;
+    transition: 1.5s;
+}
+
+
+.container .login-div:hover {
+    transform: scale(1.5);
+    box-shadow: 16px 16px 16px cyan;
+}
+
+
+.container .login-div div {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.container .login-div div input {
+    width: 200px;
+    padding-left: 20px;
+    border: none;
+    background-color:#463e3e;
+    height: 20px;
+    width: 200px;
+}
